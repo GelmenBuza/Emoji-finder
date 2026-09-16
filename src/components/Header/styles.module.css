@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+    padding: 64px 0 96px 0;
+    position: relative;
+
+    h1 {
+        color: #CCF8FF;
+        font-size: 72px;
+    }
+
+    p {
+        color: #CCF8FF;
+        opacity: 75%;
+        font-size: 21px;
+    }
+
+    label {
+        position: absolute;
+        width: 820px;
+        max-width: 90%;
+        padding-left: 32px;
+        height: 64px;
+        font-size: 24px;
+
+        background-color: #FFFFFF;
+        border: 1px solid #CED4DA;
+
+        bottom: -32px;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            background-color: transparent;
+
+            &::placeholder {
+                color: #ABB5BE;
+            }
+        }
+    }
+}
